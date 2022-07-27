@@ -1,0 +1,122 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 33vw;
+    height: 113vh;
+    background-color: black;
+    border: 2px solid orange;
+    margin: 20px auto 0px auto;
+}
+.container .img-bg{
+    height: 48%;
+    width:100%;
+    position: absolute;
+    opacity: 0.6;
+}
+.container .background{
+    position: relative;
+}
+.container nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+i{
+    color: white;
+    height: 20px;
+    width: 20px;
+    font-size: 1.3em;
+    margin: 10px;
+    font-style: normal;
+}
+.container .current{
+    padding: 40px 10px 10px 10px;
+    margin: 0px auto 0px auto;
+}
+.name{
+    margin:0px auto 0px auto ;
+    width: 50px;
+}
+.actions{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin:0px auto 0px auto ;
+    align-items: center;
+}
+.slider-container{
+    width: 80%;
+    margin:20px auto 0px auto ;
+}
+.slider{
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 5px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7;
+    transition: opacity .2s;
+    z-index: 3;
+}
+.slider:hover {
+    opacity: 1; 
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin:30px auto 0px auto ;
+}
+.buttons i{
+    text-shadow: 0 0 10px red;
+}
+i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: darkred;
+}
+nav img:hover,.actions img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.Total_lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 10px 10px 10px;
+}
+.Total_lists .lists{
+    display: flex;
+    flex-direction: row;
+    padding:3px ;
+}
+.Total_lists .lists p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px 5px 0px 10px;
+}
+.Total_lists .line{
+    width:100%;
+    background-color: white;
+    height: 2px;
+    margin: 2px;
+}
+.Total_lists .lists .two{
+    position: relative;
+    top: 15px;
+    width: 120px;
+}
+.Total_lists .lists .one{
+    margin: 5px;
+}
+.Total_lists .lists .three{
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
